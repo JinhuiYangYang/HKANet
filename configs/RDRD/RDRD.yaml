@@ -1,0 +1,8 @@
+path: .\datasets\RDRD
+
+train: images\train
+val: images\val
+test: images\test
+
+nc: 2
+names: ['poor_l','water_l']

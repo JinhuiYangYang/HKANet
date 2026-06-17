@@ -1,0 +1,14 @@
+# 忽略所有权重文件
+*.pt
+*.pth
+*.weights
+
+# 忽略数据集和训练缓存
+datasets/
+data/
+runs/
+__pycache__/
+
+# 忽略其他可能的大文件
+*.zip
+*.rar
