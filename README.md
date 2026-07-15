@@ -1,6 +1,6 @@
 # HKANet: An Efficient Software Framework for Cross-Domain Road Damage Detection
 
-## 📝 Abstract
+##  Abstract
 
 **HKANet** is a highly engineered, open-source deep learning framework explicitly designed for robust and real-time road damage detection (RDD) across diverse domains. By integrating customized dynamic attention mechanisms (including Mixed Kernel Attention and C2PSA modules) into a streamlined YOLO-based architecture, HKANet efficiently balances high-precision localization with computational constraints (16.5M parameters, 48.5 GFLOPs).
 
@@ -8,7 +8,7 @@ This repository provides a unified, highly cohesive API to guarantee strict repr
 
 ------
 
-## 📂 Project Structure
+##  Project Structure
 
 The repository is structured following strict software engineering and Code Ocean deployment standards. All paths are resolved dynamically to ensure seamless cross-platform execution.
 
@@ -29,7 +29,7 @@ HKANet/
 
 ------
 
-## ⚙️ Environment Setup
+##  Environment Setup
 
 To ensure strict reproducibility, it is recommended to run this framework within a dedicated Conda environment.
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ------
 
-## 🚀 Execution & Usage
+##  Execution & Usage
 
 The framework is operated via unified, parametrized command-line scripts. All paths are inherently relative to the project root.
 
@@ -93,7 +93,7 @@ python train.py --dataset rdrd --epochs 100 --batch 16 --device 0
 
 ------
 
-## 📊 Evaluation Outputs
+##  Evaluation Outputs
 
 All execution outputs, including quantitative metric tables (Precision, Recall, mAP@0.5, mAP@0.5:0.95), inference speeds, and parameter complexity, are automatically saved to the `runs/` directory.
 
@@ -101,9 +101,15 @@ During evaluation, a comprehensive `paper_metrics_report.txt` is generated in th
 
 ------
 
-## 📜 Acknowledgements & Citation
+##  Acknowledgements & Citation
 
 This framework is built upon the foundational engine of [Ultralytics](https://www.google.com/search?q=https://github.com/ultralytics/ultralytics&authuser=1), heavily customized to incorporate novel spatial and structural attention mechanisms for Civil Engineering applications.
+
+------
+
+## License
+
+This project is licensed under the terms of the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ------
 
